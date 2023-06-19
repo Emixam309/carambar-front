@@ -15,12 +15,14 @@
   transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.2s ease;
   will-change: box-shadow, transform;
 }
+
 .joke.button:hover {
   background: #fede27;
   box-shadow: 0 4px 8px rgb(45 35 66 / 40%), 0 7px 13px -3px rgb(45 35 66 / 30%), inset 0 -3px 0 #dabb1a;
   transform: translateY(-2px);
 }
-.joke.button:active{
+
+.joke.button:active {
   background: #e10079;
   box-shadow: inset 0 3px 7px #d6d6e7;
   transform: translateY(2px);

@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Carambar & Co</h1>
       <p>Le site des blagues Carambars !</p>
-      <Index />
+      <Index/>
     </div>
   )
 }
