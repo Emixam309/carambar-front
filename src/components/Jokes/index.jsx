@@ -10,7 +10,7 @@ const Index = () => {
   }, [])
 
   const getJoke = () => {
-    fetchApi('/jokes/random')
+    fetchApi('/api/jokes/random')
       .then(data => setJoke(data))
   }
 
